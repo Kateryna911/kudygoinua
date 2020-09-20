@@ -1,0 +1,230 @@
+body {
+
+    margin: 0;
+    font-family: 'Lato';
+
+    width: 100%;
+    max-width: 1920px;
+    height: 960px;
+
+    background: url(../images/BackGrMain/AboutUs.png) no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto ;
+}
+
+.section {
+    position: absolute;
+    width: 1180px;
+    height: 775px;
+    left: 370px;
+    top: 87px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    }
+
+.card {
+    /*border: solid red;*/
+    margin: 35px 100px;
+}
+
+.btn_cross {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 14px;
+    top: 14px;
+    border-radius: 15px;
+    padding-bottom: 1px;
+
+    background: #3B812B;
+    ;
+}
+
+.btn_cross:hover {
+    
+    background: #EEDA25;
+
+}
+
+.cross {
+
+    padding-top: 9.45px;
+    padding-left: 9.45px;
+}
+
+.card_title {
+    position: relative;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #3B812B;
+}
+
+.card_text {
+    /*position: absolute;*/
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #000000;
+
+    column-width: 450px;
+    column-count: 2;
+    column-gap: 77px;
+
+    padding-bottom: 10px;
+}
+
+.card_aboutus::after {
+    content: "";
+    width: 977px;
+    height: 1px;
+    display: block;
+    margin: 20px auto;
+
+    background-color: #DDDBDB;
+}
+
+.team {
+    /*border: solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.team_item {
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+
+.team_item:last-child {
+    padding-right: 0;
+}
+
+.team_name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #192607;
+
+}
+
+.team_prof {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 86px;
+    left: 0%;
+    right: 0%;
+    top: 874px;
+    bottom: 0%;
+
+    background: #192607;
+}
+
+.footer_logo {
+    position: absolute;
+    left: 20%;
+    top: 24px;
+}
+
+.btn {
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    left: 45%;
+    top: 25px;
+    
+    padding: 9px auto 13px;
+    font-size: 14px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    font-family: Lato;
+    font-style: normal;
+    
+
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #EF751C;
+    border-radius: 5px; 
+
+    transition: background 0.5s linear, color 0.1s linear;
+}
+
+.btn:hover {
+    background-color: #EEDA25;
+    color: #192607;
+    
+}
+
+.footer_social {
+    position: absolute;
+    left: 70%;
+    top: 26px;
+}
+
+.footer_social_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social_item {
+}
+
+.social_item_facebook:hover {
+    background: url(../images/footer/Social/WhiteFacebook.png);
+
+}
+
+.social_item_instagram:hover {
+    background: url(../images/footer/Social/WhiteInstagram.png);
+}
+
+.social_item_twiter:hover {
+    background: url(../images/footer/Social/WhiteTwiter.png);
+}
+
+
+.copyright {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+
+    color: #FFFFFF;
+
+}
